@@ -1,0 +1,39 @@
+background image
+
+<html>
+<head>
+<style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
+</head>
+<body>
+
+Add a background image for the entire page:
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+
+BACKGROUND COVER
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+

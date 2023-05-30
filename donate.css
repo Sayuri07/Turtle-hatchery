@@ -1,0 +1,208 @@
+#body{
+    align-items: center;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: white;
+}
+
+.img{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.video{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.para1{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+#para2{
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#para3{
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+#title{
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title2{
+    font-size: 200%;
+    margin-right: 20%;
+    margin-left: 0%;
+}
+
+#title4{
+    font-size: 200%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.menu_bar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+    box-sizing: border-box;
+    opacity: 70%;
+    color: white;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.logo span{
+     color: blue;
+}
+
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.menu_bar ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 110%;
+    transition: all 0.3s;
+    padding: 5px 20px;
+}
+
+.menu_bar ul li a:hover{
+    color: blue;
+}
+
+
+.button{
+    background-color: blue;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 100%;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    border-color: blue;
+}
+
+#title5{
+    margin-left: 20%;
+    font-size: 280%;
+}
+
+#title6{
+    font-size: 200%;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: brown;
+}
+
+#title7{
+    font-size: 300%;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: rgb(43, 141, 156);
+}
+
+.grid-container {
+    display: flexbox;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.grid-container > div {
+    background-color: antiquewhite;
+    border: 1px snow;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: black;
+}
+
+#para4 {
+    color: red;
+}
+
+#form {
+    background-image: url(file:///C:/Users/Dell/Desktop/Turtle/blue2.jpg);
+    margin: 0 5% 0 5%;
+}
+
+.new{
+    margin-top: 5%;
+    background-color: grey;
+    
+  }
+
+
+ footer{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  background-color: grey;
+  
+ }
+ .footiicol ul{
+  text-decoration: none;
+  list-style: none;
+ }
+
+ .mobnav ul li a{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+  }
+  .mobnav ul li{
+    list-style: none;
+  }
+  .mobnav{
+    display: none;
+  }
+
+
+   /*media quary*/
+
+ @media screen and (max-width:1000px) and (min-width:300px){
+
+    .menu_bar{
+        display: none;
+     }
+     .mobnav{
+        display: block;
+        background-color: rgb(40, 33, 25);
+      }
+
+      .button{
+     padding: 5% 5%;
+     margin-left: -20%;
+      }
+ }
